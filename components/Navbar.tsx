@@ -9,10 +9,11 @@ import NavHamBurg from "./NavHamBurg";
 
 const Navbar = () => {
   return (
-    <nav className="p-4 z-50 h-16 flex items-center justify-between max-w-6xl mx-auto shadow-xl shadow-blue-950">
-      <Image src="/logo 1.png" alt="logo" width={50} height={30} />
-      {/* this Span Instead of imag as option */}
-      {/* <span className="flex  flex-col cursor-pointer">
+    <nav className="w-full h-16 shadow-xl  shadow-[#2A0E61]/50  backdrop-blur-md px-6 py-1">
+      <div className="max-w-6xl h-full z-50 mx-auto flex items-center justify-between shadow-xl ">
+        <Image src="/logo 1.png" alt="logo" width={50} height={30} />
+        {/* this Span Instead of imag as option */}
+        {/* <span className="flex  flex-col cursor-pointer">
         <h1 className="bg-gradient-to-r from-[#00C0FD] to-[#E70FAA] inline-block text-transparent bg-clip-text">
           {`{007}`}
         </h1>
@@ -21,42 +22,43 @@ const Navbar = () => {
         </h1>
       </span> */}
 
-      <div className="hidden md:flex justify-center items-center flex-grow">
-        <ul className="flex space-x-8">
-          <li>
-            <a href="/home" className="text-white hover:text-gray-400">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="/about" className="text-white hover:text-gray-400">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="/projects" className="text-white hover:text-gray-400">
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href="/tech-stack" className="text-white hover:text-gray-400">
-              Tech Stack
-            </a>
-          </li>
-          <li>
-            <a href="/contact" className="text-white hover:text-gray-400">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
+        <div className="hidden md:flex justify-center items-center flex-grow">
+          <ul className="flex text-white space-x-8">
+            <li>
+              <a href="/home" className="Nav-hover">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="/about" className="Nav-hover">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="/projects" className="Nav-hover">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="/tech-stack" className=" Nav-hover">
+                Tech Stack
+              </a>
+            </li>
+            <li>
+              <a href="/contact" className=" Nav-hover">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
 
-      <div className="hidden md:flex flex-row items-center space-x-3">
-        <CgTwitter className="w-7 h-7 rounded-full bg-[#A7A7A7] cursor-pointer" />
-        <TiSocialGithubCircular className="w-7 h-7 rounded-full bg-[#A7A7A7] cursor-pointer" />
-        <FaLinkedinIn className="w-7 h-7 rounded-full p-1 bg-[#A7A7A7] cursor-pointer" />
+        <div className="hidden md:flex flex-row items-center space-x-3">
+          <CgTwitter className="w-7 h-7 rounded-full bg-[#A7A7A7] cursor-pointer" />
+          <TiSocialGithubCircular className="w-7 h-7 rounded-full bg-[#A7A7A7] cursor-pointer" />
+          <FaLinkedinIn className="w-7 h-7 rounded-full p-1 bg-[#A7A7A7] cursor-pointer" />
+        </div>
+        <NavHamBurg />
       </div>
-      <NavHamBurg />
     </nav>
   );
 };

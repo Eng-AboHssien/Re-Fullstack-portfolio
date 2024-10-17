@@ -6,3 +6,9 @@ html {
   background-color: #191919;
   gradient-custom: "linear-gradient(62.8deg,#00C0FD-167.81%,#E70FAA267.18%)";
 }
+
+@layer utilities {
+  .Nav-hover {
+    @apply inline-block text-transparent bg-white bg-clip-text font-semibold  hover:bg-gradient-to-r hover:from-[#00C0FD] hover:to-[#E70FAA];
+  }
+}
