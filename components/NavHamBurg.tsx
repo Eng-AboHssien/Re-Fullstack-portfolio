@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { HiBars3BottomRight } from "react-icons/hi2";
 
 const NavHamBurg = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,9 +10,10 @@ const NavHamBurg = () => {
     <>
       {/* Hamburger Icon for Mobile */}
       <button className="md:hidden  text-white focus:outline-none" onClick={HamBurgOpen}>
-        <svg className="w-7 h-7 relative" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        {/* <svg className="w-7 h-7 relative" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
-        </svg>
+        </svg> */}
+        <HiBars3BottomRight size={36} />
       </button>
       {isOpen && (
         <div className="md:hidden absolute bg-gray-600 top-16 right-0 mr-4 py-4 w-1/4  flex-grow items-center justify-center ">
