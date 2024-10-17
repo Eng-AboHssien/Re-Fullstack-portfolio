@@ -6,14 +6,19 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
-  },
   plugins: [],
 };
 export default config;
+
+// tailwind.config.js
+// module.exports = {
+//   theme: {
+//     extend: {
+//       colors: {
+//         "cyan-custom": "#00C0FD",
+//         "pink-custom": "#E70FAA",
+//       },
+//     },
+//   },
+//   plugins: [],
+// };
