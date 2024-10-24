@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { CgTwitter } from "react-icons/cg";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { TiSocialGithubCircular } from "react-icons/ti";
@@ -11,8 +10,6 @@ const Navbar = () => {
   return (
     <nav className="w-full h-16 shadow-xl  shadow-[#2A0E61]/50  backdrop-blur-md px-6 py-1">
       <div className="max-w-7xl px-4 h-full z-50 mx-auto flex items-center justify-between shadow-xl ">
-        {/* <Image src="/logo 1.png" alt="logo" width={50} height={30} /> */}
-        {/* this Span Instead of imag as option */}
         <span className="flex  flex-col cursor-pointer">
           <h1 className="bg-gradient-to-r from-[#00C0FD] to-[#E70FAA] inline-block text-transparent bg-clip-text">
             {`{007}`}

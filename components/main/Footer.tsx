@@ -5,7 +5,7 @@ import { TiSocialGithubCircular } from "react-icons/ti";
 
 const Footer = () => {
   return (
-    <div className="w-full overflow-hidden shadow-xl shadow-[#2A0E61]/50 backdrop-blur-md px-6 py-4">
+    <div className="w-full overflow-hidden shadow-xl  shadow-[#2A0E61]/50 backdrop-blur-md px-6 py-2">
       <div className="max-w-7xl mx-auto flex flex-col items-center px-4">
         {/* Row 1: Logo and Contact Info */}
         <div className="flex flex-row  justify-between w-full items-center mb-1">
@@ -18,23 +18,23 @@ const Footer = () => {
             </h1>
           </span>
 
-          <div className="flex flex-col md:flex-row items-center justify-between  md:w-1/2  text-sm md:mt-0">
+          <div className="flex flex-col md:flex-row items-center justify-between  md:w-1/2  md:text-base text-[12px] mb-0">
             <p className="text-white mr-2">+001008406806</p>
             <p className="text-white mr-2">islam@gmail.com</p>
             <div className="hidden md:flex flex-row items-center space-x-3">
               <CgTwitter className="w-7 h-7 rounded-full bg-[#A7A7A7] cursor-pointer" />
               <TiSocialGithubCircular className="w-7 h-7 rounded-full bg-[#A7A7A7] cursor-pointer" />
-              <FaLinkedinIn className="w-7 h-7 rounded-full p-1 bg-[#A7A7A7] cursor-pointer" />
+              <FaLinkedinIn className="w-7 h-7 rounded-full  bg-[#A7A7A7] cursor-pointer" />
             </div>
           </div>
         </div>
 
         {/* Row 2: Divider Line */}
-        <hr className="border-t border-gray-400 w-full my-4" />
+        <hr className="border-t border-gray-400 w-full my-2" />
 
         {/* Row 3: Navigation Links and Attribution */}
-        <div className="flex flex-col md:flex-row md:text-sm text-[10px]  justify-between items-center w-full">
-          <ul className="flex  text-white md:space-x-8 space-x-2 mb-4 md:mb-0">
+        <div className="flex flex-col md:flex-nowrap flex-wrap md:flex-row md:text-sm text-[10px]  justify-between items-center w-full">
+          <ul className="flex   text-white md:space-x-8 space-x-2 mb-4 md:mb-0">
             <li>
               <a href="/home" className="Nav-hover">
                 Home
