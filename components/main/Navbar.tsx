@@ -3,7 +3,6 @@
 import { CgTwitter } from "react-icons/cg";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { TiSocialGithubCircular } from "react-icons/ti";
-// import { useState } from "react";
 import NavHamBurg from "../sub/NavHamBurg";
 
 const Navbar = () => {
