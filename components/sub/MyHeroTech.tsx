@@ -13,7 +13,7 @@ const MyHeroTech = () => {
             <h1 className="text-2xl text-white"> My Tech Stack</h1>
             <p className="text-xl text-gray-400">Technologies I&apos;ve been working with recently</p>
           </div>
-          <div className="grid grid-cols-6 gap-6">
+          <div className="grid grid-cols-6 gap-24">
             {images.map((imge: ImageData) => (
               <Image
                 key={imge.key}

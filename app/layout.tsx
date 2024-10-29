@@ -14,8 +14,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body
         className={`min-h-screen font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif overflow-y-scroll overflow-x-hidden}`}
       >
-        <div className="flex flex-col min-h-screen">
-          <Navbar  />
+        <div className="flex flex-col min-h-screen overflow-x-hidden">
+          <Navbar />
           <Hero />
           {children}
           <Footer />
