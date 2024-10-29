@@ -5,7 +5,7 @@ import { TiSocialGithubCircular } from "react-icons/ti";
 
 const Footer = () => {
   return (
-    <div className="w-full  shadow-xl  shadow-[#2A0E61]/50 backdrop-blur-md px-20 py-2">
+    <div className="w-full  shadow-xl px-4 shadow-[#2A0E61]/50 backdrop-blur-md py-2">
       <div className="max-w-7xl mx-auto flex flex-col items-center px-4">
         {/* Row 1: Logo and Contact Info */}
         <div className="flex flex-row  justify-between w-full items-center mb-1">

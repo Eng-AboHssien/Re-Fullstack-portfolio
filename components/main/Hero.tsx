@@ -6,10 +6,10 @@ import ProjectSection from "../sub/ProjectSection";
 
 const Hero = () => {
   return (
-    <div className="w-full px-20 flex-grow">
-      <div className="max-w-7xl mx-auto md:mt-48 mt-20 text-center">
+    <div className="w-full  flex-grow ">
+      <div className="max-w-7xl mx-auto md:mt-48 mt-20 px-4 text-center">
         <div className="flex md:flex-row flex-col md:justify-between justify-center items-center">
-          <div className="hidden md:flex flex-col font-bold text-start  text-3xl md:mb-0 mb-4   text-white ">
+          <div className="hidden md:flex flex-col px-4 font-bold text-start  text-3xl md:mb-0 mb-4   text-white ">
             <h1 className="flex flex-row bg-transparent">
               Hi
               <PiHandWavingFill className="ml-2 text-yellow-500  w-10 h-10" fill="currentColor" />

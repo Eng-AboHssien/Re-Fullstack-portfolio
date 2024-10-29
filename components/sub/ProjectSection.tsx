@@ -12,7 +12,7 @@ const ProjectSection = () => {
         <div className="flex flex-col justify-center items-center mb-4 space-y-4 text-center ">
           <h1 className="text-white font-bold text-4xl tracking-wider mb-2">Projects</h1>
           <p className="text-gray-400 text-2xl"> Things I&apos;ve built so far</p>
-          <div className="grid md:grid-cols-3    flex-col-1 md:gap-10  justify-center items-center">
+          <div className="grid md:grid-cols-3   flex-col-1 md:gap-24  justify-center items-center">
             {TechStackImge.map((imge: ProjectImageData) => (
               <div
                 key={imge.key}
@@ -23,7 +23,7 @@ const ProjectSection = () => {
                   alt={`Image ${imge.key}`}
                   width={imge.width}
                   height={imge.height}
-                  className="w-[350px] h-[260px] rounded-tl-lg rounded-tr-lg "
+                  className="w-[350px] h-[260px] rounded-tl-lg rounded-tr-lg"
                 />
 
                 <div className="text-start px-4 max-w-[350px]  rounded-bl-lg rounded-br-lg z-50 bg-[#363636] p-4">
