@@ -3,12 +3,11 @@
 import { CgTwitter } from "react-icons/cg";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { TiSocialGithubCircular } from "react-icons/ti";
-// import { useState } from "react";
 import NavHamBurg from "../sub/NavHamBurg";
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-16 shadow-xl  shadow-[#2A0E61]/50  backdrop-blur-md px-6 py-1">
+    <nav className="w-full h-16 shadow-xl px-4 shadow-[#2A0E61]/50  backdrop-blur-md mx-auto py-1">
       <div className="max-w-7xl px-4 h-full z-50 mx-auto flex items-center justify-between shadow-xl ">
         <span className="flex  flex-col cursor-pointer">
           <h1 className="bg-gradient-to-r from-[#00C0FD] to-[#E70FAA] inline-block text-transparent bg-clip-text">
