@@ -10,11 +10,9 @@ export const metadata = {
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="dark">
-      <body
-        className={`min-h-screen font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif overflow-y-scroll overflow-x-hidden}`}
-      >
-        <div className="flex flex-col min-h-screen overflow-x-hidden">
+    <html lang="en">
+      <body className={`Ubuntu.className dark:bg-dark`}>
+        <div className="flex flex-col min-h-screen overflow-x-hidde">
           <Navbar />
           <Hero />
           {children}

@@ -5,6 +5,7 @@ import MyHeroTech from "../sub/MyHeroTech";
 import ProjectSection from "../sub/ProjectSection";
 
 const Hero = () => {
+  
   return (
     <div className="w-full  flex-grow ">
       <div className="max-w-7xl mx-auto md:mt-48 mt-20 px-4 text-center">
