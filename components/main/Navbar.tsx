@@ -4,10 +4,11 @@ import { CgTwitter } from "react-icons/cg";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { TiSocialGithubCircular } from "react-icons/ti";
 import NavHamBurg from "../sub/NavHamBurg";
+import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-16 shadow-xl px-4 shadow-[#2A0E61]/50  backdrop-blur-md mx-auto py-1">
+    <nav className="w-full h-16 shadow-xl px-4 shadow-[#2A0E61]/50  backdrop-blur-md mx-auto py-1 dark:bg-dark">
       <div className="max-w-7xl px-4 h-full z-50 mx-auto flex items-center justify-between shadow-xl ">
         <span className="flex  flex-col cursor-pointer">
           <h1 className="bg-gradient-to-r from-[#00C0FD] to-[#E70FAA] inline-block text-transparent bg-clip-text">
@@ -19,7 +20,7 @@ const Navbar = () => {
         </span>
 
         <div className="hidden md:flex justify-center items-center flex-grow">
-          <ul className="flex text-white space-x-8">
+          <ul className="flex text-white dark:text-white space-x-8">
             <li>
               <a href="/home" className="Nav-hover">
                 Home
@@ -54,6 +55,7 @@ const Navbar = () => {
           <FaLinkedinIn className="w-7 h-7 rounded-full p-1 bg-[#A7A7A7] cursor-pointer" />
         </div>
         <NavHamBurg />
+        <ThemeToggle/>
       </div>
     </nav>
   );
